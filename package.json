@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio-website-1",
-  "homepage": "https://egattor.com/rp2447",
+  "homepage": "https://TBZMedien.com/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,8 +26,8 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "browserslist": {
+    },
+    "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
