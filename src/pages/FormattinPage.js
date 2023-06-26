@@ -1,11 +1,11 @@
 import React from 'react';
-import Footer from "../components/footer/Footer";
-import Nav from "../components/nav/Nav";
+import Experience from "../components/experience/Experience";
+
 
 const FormattingPage = () => {
     return (
         <div>
-
+            <Experience/>
 
         </div>
     );

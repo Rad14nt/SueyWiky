@@ -1,12 +1,10 @@
 import React from 'react';
-import Footer from "../components/footer/Footer";
-import Nav from "../components/nav/Nav";
-import Contact from "../components/contact/Contact";
+import SoftwareTools from "../components/softwaretools/SoftwareTools";
 
 const SoftwareToolsPage = () => {
     return (
         <div>
-            <Contact />
+            <SoftwareTools/>
 
         </div>
     );
