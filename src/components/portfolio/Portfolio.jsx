@@ -58,8 +58,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Our Self created tutorials</h5>
+      <h2>Video Tutorials</h2>
 
       <div className="container portfolio__container">
         {

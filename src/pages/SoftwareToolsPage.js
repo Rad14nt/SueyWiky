@@ -3,14 +3,13 @@ import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
 import Contact from "../components/contact/Contact";
 
-const Softwaretools = () => {
+const SoftwareToolsPage = () => {
     return (
         <div>
             <Contact />
-            <Nav />
-            <Footer />
+
         </div>
     );
 };
 
-export default Softwaretools;
+export default SoftwareToolsPage;

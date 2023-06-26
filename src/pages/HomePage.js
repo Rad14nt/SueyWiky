@@ -9,8 +9,7 @@ const HomePage = () => {
         <div>
             <Homepagetitle />
             <HomePageGrid />
-            <Nav/>
-            <Footer />
+
         </div>
     );
 };

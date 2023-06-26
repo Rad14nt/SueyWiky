@@ -2,19 +2,20 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/FormattinPage';
-import VideoTutorials from './pages/VideoTutorials';
-import Softwaretools from './pages/softwaretools';
-import PortofolioPage from './pages/PortofolioPage';
+import VideoTutorialsPage from './pages/VideoTutorialsPage';
+import SoftwareToolsPage from './pages/SoftwareToolsPage';
+import AboutUsPage from './pages/AboutUsPage';
 import FormattingPage from "./pages/FormattinPage";
+import CopyrightPage from "./pages/Copyright";
 
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/portfolio" element={<PortofolioPage />} />
-            <Route path="/softwaretools" element={<Softwaretools />} />
-            <Route path="/copyright" element={<AboutPage />} />
-            <Route path="/videotutorials" element={<VideoTutorials />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/aboutus" element={<AboutUsPage />} />
+            <Route path="/videotutorials" element={<VideoTutorialsPage />} />
+            <Route path="/copyright" element={<CopyrightPage />} />
+            <Route path="/softwaretools" element={<SoftwareToolsPage />} />
             <Route path="/formatting" element={<FormattingPage />} />
         </Routes>
     );

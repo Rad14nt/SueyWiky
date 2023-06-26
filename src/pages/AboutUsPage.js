@@ -4,15 +4,17 @@ import Footer from "../components/footer/Footer";
 import Portfolio from "../components/portfolio/Portfolio";
 import Nav from "../components/nav/Nav";
 
-const PortofolioPage = () => {
+const AboutUsPage = () => {
     return (
         <div>
-            <About />
-            <Portfolio />
-            <Nav/>
-            <Footer />
+            <About/>
+            <About/>
+            <About/>
+            <About/>
+            <About/>
+
         </div>
     );
 };
 
-export default PortofolioPage;
+export default AboutUsPage;
