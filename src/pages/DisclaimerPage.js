@@ -3,6 +3,7 @@ import TextBox from "../components/common/TextBox";
 
 const DisclaimerPage = () => {
 
+    //TODO: Export
     const content = {
         title: "Disclaimer",
         subjects: [
@@ -25,11 +26,7 @@ const DisclaimerPage = () => {
         ]
     }
 
-    return (
-        <div>
-            <TextBox content={content}/>
-        </div>
-    );
+    return <TextBox content={content}/>;
 };
 
 export default DisclaimerPage;

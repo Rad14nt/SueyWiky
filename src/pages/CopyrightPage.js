@@ -1,8 +1,8 @@
-import React from 'react';
 import TextBox from "../components/common/TextBox";
 
 const CopyrightPage = () => {
 
+    //TODO: Export
     const content = {
         title: "Legal Notice",
         subjects: [
@@ -27,11 +27,7 @@ const CopyrightPage = () => {
         ]
     }
 
-    return (
-        <div>
-            <TextBox content={content}/>
-        </div>
-    );
+    return <TextBox content={content}/>;
 };
 
 export default CopyrightPage;

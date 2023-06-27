@@ -1,5 +1,4 @@
 import {
-    React,
     useState
 } from 'react'
 import './nav.css'
@@ -22,8 +21,8 @@ const Nav = () => {
                 <BiHomeAlt/>
             </Link>
 
-            <Link to="aboutus" onClick={() => setActiveNav('aboutus')}
-               className={activeNav === 'aboutus' ? 'active' : ''}>
+            <Link to="about" onClick={() => setActiveNav('about')}
+               className={activeNav === 'about' ? 'active' : ''}>
                 <BiUserCircle/>
             </Link>
 
