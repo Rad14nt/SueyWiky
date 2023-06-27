@@ -1,6 +1,6 @@
 import React from 'react';
-import HomePageGrid from "../components/homepagegrid/homepagegrid";
-import Homepagetitle from "../components/homepagetitle/homepagetitle";
+import HomePageGrid from "../components/homepagegrid/HomePageGrid";
+import Homepagetitle from "../components/homepagetitle/HomePageTitle";
 
 const HomePage = () => {
     return (

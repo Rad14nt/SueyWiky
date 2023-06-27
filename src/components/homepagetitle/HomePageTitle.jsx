@@ -2,7 +2,7 @@ import React from 'react';
 import './homepagetitle.css';
 import OvalImage from '../../assets/oval-image.jpg';
 
-const homepagetitle = () => {
+const homePageTitle = () => {
     return (
         <div className="oval-container">
             <div className="oval-content">
@@ -13,4 +13,4 @@ const homepagetitle = () => {
     );
 };
 
-export default homepagetitle;
+export default homePageTitle;

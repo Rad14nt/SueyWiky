@@ -1,12 +1,14 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/FormattinPage';
-import VideoTutorialsPage from './pages/VideoTutorialsPage';
-import SoftwareToolsPage from './pages/SoftwareToolsPage';
-import AboutUsPage from './pages/AboutUsPage';
-import FormattingPage from "./pages/FormattinPage";
-import CopyrightPage from "./pages/Copyright";
+import {
+    HomePage,
+    FormattingPage,
+    VideoTutorialsPage,
+    SoftwareToolsPage,
+    AboutUsPage,
+    CopyrightPage,
+    DisclaimerPage,
+} from './pages'
 
 const AppRoutes = () => {
     return (
@@ -15,6 +17,7 @@ const AppRoutes = () => {
             <Route path="/aboutus" element={<AboutUsPage />} />
             <Route path="/videotutorials" element={<VideoTutorialsPage />} />
             <Route path="/copyright" element={<CopyrightPage />} />
+            <Route path="/disclaimer" element={<DisclaimerPage />} />
             <Route path="/softwaretools" element={<SoftwareToolsPage />} />
             <Route path="/formatting" element={<FormattingPage />} />
         </Routes>
