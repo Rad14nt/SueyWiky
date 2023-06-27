@@ -9,6 +9,7 @@ import {
     BiInfoCircle,
     BiUserCircle
 } from 'react-icons/bi'
+import {Link} from "react-router-dom";
 
 const Nav = () => {
 
@@ -16,25 +17,25 @@ const Nav = () => {
 
     return (
         <nav>
-            <a href="/" onClick={() => setActiveNav('/')}
+            <Link to="/" onClick={() => setActiveNav('/')}
                className={activeNav === '/' ? 'active' : ''}>
                 <BiHomeAlt/>
-            </a>
+            </Link>
 
-            <a href="aboutus" onClick={() => setActiveNav('aboutus')}
+            <Link to="aboutus" onClick={() => setActiveNav('aboutus')}
                className={activeNav === 'aboutus' ? 'active' : ''}>
                 <BiUserCircle/>
-            </a>
+            </Link>
 
-            <a href="copyright" onClick={() => setActiveNav('copyright')}
+            <Link to="copyright" onClick={() => setActiveNav('copyright')}
                className={activeNav === 'copyright' ? 'active' : ''}>
                 <BiCopyright/>
-            </a>
+            </Link>
 
-            <a href="disclaimer" onClick={() => setActiveNav('disclaimer')}
+            <Link to="disclaimer" onClick={() => setActiveNav('disclaimer')}
                className={activeNav === 'disclaimer' ? 'active' : ''}>
                 <BiInfoCircle/>
-            </a>
+            </Link>
         </nav>
     )
 }
