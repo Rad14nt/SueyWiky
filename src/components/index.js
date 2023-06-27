@@ -1,5 +1,6 @@
 export {default as About} from './about/About'
 export {default as TextBox} from './common/TextBox'
+export {default as ImageBoxWithText} from './common/ImageBoxWithText'
 export {default as Contact} from './contact/Contact'
 export {default as Experience} from './experience/Experience'
 export {default as Footer} from './footer/Footer'
