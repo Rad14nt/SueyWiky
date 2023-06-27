@@ -45,8 +45,9 @@
   color: var(--color-light);
 }
 
-.text__text-area div {
-  width: 80%;
+.text__text-area {
+  width: 75%;
+  margin: 3rem auto auto;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
