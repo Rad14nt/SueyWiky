@@ -14,9 +14,7 @@ const About = (props) => {
             <div className="container text__container">
                 <div className="text__content">
                     <div className="text__cards">
-
                         {content.subjects.map((subject, index) => (
-
                             <a key={index} href={"#" + subject.subTitle.replace(' ', '-').toLowerCase()}>
                                 <article  className='text__card'>
                                     <VscFolderLibrary className='text__icon'/>
@@ -25,14 +23,15 @@ const About = (props) => {
                                 </article>
                             </a>
                         ))}
-
                     </div>
 
                     <div className="text__text-area">
                         {content.subjects.map((subject, index) => (
                             <div key={index} className="" id={subject.subTitle.replace(' ', '-').toLowerCase()}>
                                 <h3>{subject.subTitle}</h3>
-                                <p >{subject.subTextLong}</p>
+                                {subject.subTextLong.split('\n').map((line, index) =>
+                                    <p key={index}>{line}</p>
+                                )}
                             </div>
                         ))}
                     </div>

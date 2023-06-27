@@ -19,14 +19,9 @@ const DisclaimerPage = () => {
             {
                 subTitle: "3.",
                 subTextShort: "Contact us!",
-                subTextLong: "If you were to discover any errors or false information on this wiki, feel free to inform us by e-mail to invalid@mail.com"
-            },
-            {
-                subTitle: "4.",
-                subTextShort: "Opensource",
-                subTextLong: "This website - and all content* coming along with it - generally are opensource; meaning free of any copyright.\n" +
-                    "\n" +
-                    "*videos excluded\n"
+                subTextLong: "If you were to discover any errors or false information on this wiki, feel free to inform us by e-mail to invalid@mail.com\n" +
+                    "This website - and all content* coming along with it - generally are opensource; meaning free of any copyright.\n" +
+                    "*videos excluded"
             }
         ]
     }
