@@ -8,7 +8,6 @@ const AboutPage = () => {
             <About/>
             <About/>
             <About/>
-
         </div>
     );
 };
