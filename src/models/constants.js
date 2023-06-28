@@ -5,11 +5,57 @@ export const articles = [
         id: 1,
         image: IMG1,
         title: 'Media file formats',
+        author: 'Gregor',
         subjects: [
             {
-                subTitle: "Contact",
-                subTextShort: "SueyWiky - GitHub Alley 420",
-                subTextLong: "SueyWiky GitHub-Alley 420 GH-6969 Internet invalid@mail.com"
+                subTitle: "MP3",
+                subTextShort: "audio.mp3",
+                subTextLong: "The MP3 format revolutionized the way we listen to music. Developed by the Moving Picture Experts Group, it was created to compress audio files without sacrificing much of the original quality. MP3 files significantly reduced file sizes while maintaining a reasonable level of sound fidelity, making it easy to store and share music online. The format's widespread adoption made it the de facto standard for digital audio, allowing music lovers to create vast digital music libraries and enjoy their favorite songs on various devices. "
+            },
+            {
+                subTitle: "JPEG",
+                subTextShort: "image.jpeg",
+                subTextLong: "The JPEG format, short for Joint Photographic Experts Group, was designed to compress and store digital images efficiently. By utilizing lossy compression, JPEG files can achieve significant reductions in file size while maintaining acceptable image quality. This format is widely used in photography and digital imaging, allowing photographers and users to store and share high-resolution images with relatively small file sizes. Although it sacrifices some fine details, JPEG's efficient compression has made it a go-to format for web graphics and digital photography. "
+            },
+            {
+                subTitle: "PNG",
+                subTextShort: "picture.png",
+                subTextLong: "PNG, or Portable Network Graphics, was developed as a replacement for the GIF format. Unlike GIF, PNG supports full-color images with high color depth and provides lossless compression. This means that PNG files can preserve all the original details and colors of an image while still achieving compression. PNG is widely used for images with transparency, such as logos, icons, and graphics, as it allows for clean edges and smooth transitions between opaque and transparent areas. "
+            },
+            {
+                subTitle: "GIF",
+                subTextShort: "meme.gif",
+                subTextLong: "The Graphics Interchange Format (GIF) is a unique file format that gained popularity for its ability to support animated images. GIFs use a simple and efficient compression algorithm that allows for short and looping animations. While limited in color depth and resolution compared to other formats, GIFs became a beloved medium for sharing short and humorous animations on the internet. They are commonly used for expressing emotions, reactions, and conveying visual messages in a concise and engaging manner. "
+            },
+            {
+                subTitle: "AVI",
+                subTextShort: "video.avi",
+                subTextLong: "Audio Video Interleave (AVI) is a multimedia container format that was developed by Microsoft. It was one of the first video formats to provide a synchronized audio and video playback. AVI files can contain both audio and video data, making them suitable for storing movies, TV shows, and other video content. While AVI is considered an older format, it is still widely compatible with various media players and editing software. "
+            },
+            {
+                subTitle: "MP4",
+                subTextShort: "film.mp4",
+                subTextLong: "MP4, short for MPEG-4 Part 14, is a versatile video file format that was designed for efficient video streaming and sharing. It utilizes advanced video compression algorithms, such as the H.264 codec, to provide high-quality video with relatively small file sizes. MP4 files can contain both audio and video tracks, making them ideal for a wide range of applications, including online streaming, video sharing platforms, and portable media players. MP4 has become the most popular video format, offering a balance between file size and video quality. "
+            },
+            {
+                subTitle: "MOV",
+                subTextShort: "movie.mov",
+                subTextLong: "MOV is a multimedia container format developed by Apple Inc. It was primarily designed for QuickTime, Apple's multimedia framework. MOV files can contain various types of media data, including video, audio, and even text tracks. This format has gained popularity among professionals in the film and video production industry due to its support for high-quality video and professional codecs like Apple ProRes. MOV files are widely compatible with both Mac and Windows operating systems and are commonly used for video editing and distribution. "
+            },
+            {
+                subTitle: "WAV",
+                subTextShort: "sound.wav",
+                subTextLong: "WAV, short for Waveform Audio File Format, is an uncompressed audio format developed by Microsoft and IBM. It stores audio data in a raw and lossless manner, preserving the full quality and fidelity of the original recording. WAV files are commonly used in professional audio production and "
+            },
+            {
+                subTitle: "FLV",
+                subTextShort: "stream.flv",
+                subTextLong: "FLV, or Flash Video, is a container file format developed by Adobe Systems. It was specifically designed for online video streaming and delivery. FLV files use a combination of audio and video codecs, such as H.264 for video and AAC for audio, to provide efficient compression and good quality playback. This format gained popularity with the rise of Flash-based video players and video-sharing websites. FLV files are known for their compatibility with Adobe Flash Player, making them suitable for online advertisements, web animations, and video platforms. "
+            },
+            {
+                subTitle: "SVG",
+                subTextShort: "icon.svg",
+                subTextLong: "SVG, or Scalable Vector Graphics, is a file format used for two-dimensional vector graphics. Unlike raster-based formats like JPEG or PNG, SVG files store images as a set of mathematical equations and geometric shapes, allowing them to be scaled to any size without losing quality. SVG is widely used for web graphics, icons, logos, and illustrations, as it offers flexibility and sharpness across different devices and resolutions. Additionally, SVG files can be easily edited and animated using various design software and scripting languages, making them a popular choice for interactive web experiences. "
             },
         ],
     },
@@ -17,9 +63,27 @@ export const articles = [
         id: 2,
         image: IMG1,
         title: 'Media creation tools',
+        author: 'Marvin',
         subjects: [
             {
-                subTitle: "Contact",
+                subTitle: "What is media software",
+                subTextShort: "",
+                subTextLong: "Long story short: Media Software is used to create digital media. How surprising.\n" +
+                    "These days quite anything counts as media: text, visuals, sounds, [...] and there are tools to create all sorts of media, lots of tools to create media.\n" +
+                    "In this article we're going to start by taking a look at popular 'amateur'-tools to create & edit images, sounds, videos. Then we'll extend our event horizon by looking at what professionals use for their movies, ads & blog-posts."
+            },
+            {
+                subTitle: "Popular apps for media-creation",
+                subTextShort: "SueyWiky - GitHub Alley 420",
+                subTextLong: "SueyWiky GitHub-Alley 420 GH-6969 Internet invalid@mail.com"
+            },
+            {
+                subTitle: "Apps used by the industry",
+                subTextShort: "SueyWiky - GitHub Alley 420",
+                subTextLong: "SueyWiky GitHub-Alley 420 GH-6969 Internet invalid@mail.com"
+            },
+            {
+                subTitle: "Latest techniques",
                 subTextShort: "SueyWiky - GitHub Alley 420",
                 subTextLong: "SueyWiky GitHub-Alley 420 GH-6969 Internet invalid@mail.com"
             },
@@ -28,7 +92,9 @@ export const articles = [
 ]
 
 export const copyrightContent = {
+    id: 1,
     title: "Legal Notice",
+    author: 'Marvin',
     subjects: [
         {
             subTitle: "Contact",
@@ -52,7 +118,9 @@ export const copyrightContent = {
 }
 
 export const disclaimerContent = {
+    id: 1,
     title: "Disclaimer",
+    author: 'Marvin',
     subjects: [
         {
             subTitle: "Our responsibility",

@@ -1,13 +1,14 @@
-import React from 'react'
 import './textbox.css'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {Link} from "react-router-dom";
 
-const About = (props) => {
+const TextBox = (props) => {
 
     const { content } = props
 
     return (
         <section id='about'>
+            <h6>Article by: {content.author ?? 'anonymous'}</h6>
             <h5>Everything about...</h5>
             <h2>{content.title}</h2>
 
@@ -15,13 +16,17 @@ const About = (props) => {
                 <div className="text__content">
                     <div className="text__cards">
                         {content.subjects.map((subject, index) => (
-                            <a key={index} href={"#" + subject.subTitle.replace(' ', '-').toLowerCase()}>
+                            <Link
+                                key={index}
+                                to={"#" + subject.subTitle.replace(' ', '-').toLowerCase()}
+                                state={{content: content}}
+                            >
                                 <article  className='text__card'>
                                     <VscFolderLibrary className='text__icon'/>
                                     <h5>{subject.subTitle}</h5>
                                     <small>{subject.subTextShort}</small>
                                 </article>
-                            </a>
+                            </Link>
                         ))}
                     </div>
 
@@ -41,4 +46,4 @@ const About = (props) => {
     )
 }
 
-export default About
+export default TextBox
