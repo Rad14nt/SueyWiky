@@ -1,5 +1,5 @@
 import {
-    ImageBoxWithText
+    ImageCards
 } from "../components";
 import {
     articles
@@ -13,7 +13,7 @@ const HomePage = () => {
         "buttonText": "To the article!",
     }
 
-    return <ImageBoxWithText content={content} articles={articles} />;
+    return <ImageCards content={content} articles={articles} />;
 };
 
 export default HomePage;

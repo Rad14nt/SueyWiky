@@ -1,9 +1,9 @@
 import React from 'react';
-import TextBox from "../components/common/TextBox";
+import ArticleTexts from "../components/common/ArticleTexts";
 import {disclaimerContent} from "../models";
 
 const DisclaimerPage = () => {
-    return <TextBox content={disclaimerContent}/>;
+    return <ArticleTexts content={disclaimerContent}/>;
 };
 
 export default DisclaimerPage;

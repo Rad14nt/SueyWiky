@@ -1,8 +1,8 @@
-import TextBox from "../components/common/TextBox";
+import ArticleTexts from "../components/common/ArticleTexts";
 import {copyrightContent} from "../models";
 
 const CopyrightPage = () => {
-    return <TextBox content={copyrightContent}/>;
+    return <ArticleTexts content={copyrightContent}/>;
 };
 
 export default CopyrightPage;

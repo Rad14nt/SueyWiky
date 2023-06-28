@@ -2,7 +2,7 @@ import React from 'react'
 import './textbox.css'
 import {Link} from "react-router-dom";
 
-const ImageBoxWithText = (props) => {
+const ImageCards = (props) => {
 
     const { articles, content } = props
 
@@ -34,4 +34,4 @@ const ImageBoxWithText = (props) => {
     )
 }
 
-export default ImageBoxWithText
+export default ImageCards

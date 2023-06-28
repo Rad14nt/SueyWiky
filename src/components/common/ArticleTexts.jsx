@@ -2,7 +2,7 @@ import './textbox.css'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {Link} from "react-router-dom";
 
-const TextBox = (props) => {
+const ArticleTexts = (props) => {
 
     const { content } = props
 
@@ -46,4 +46,4 @@ const TextBox = (props) => {
     )
 }
 
-export default TextBox
+export default ArticleTexts

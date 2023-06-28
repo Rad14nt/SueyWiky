@@ -5,7 +5,7 @@ import {
     useLocation
 } from "react-router-dom";
 import {
-    TextBox
+    ArticleTexts
 } from "../components";
 
 const ArticlePage = () => {
@@ -14,7 +14,7 @@ const ArticlePage = () => {
 
     const [article, setArticle] = useState(location.state.article)
 
-    return <TextBox content={article}/>;
+    return <ArticleTexts content={article}/>;
 };
 
 export default ArticlePage;
