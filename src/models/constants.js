@@ -169,7 +169,7 @@ export const members = [
         name: "Andrei",
         desc: "Software engineer",
         text: "", // TODO: Write text about yourself
-        subjects: [ /* TODO: Write about stuff you've did during the project */
+        subjects: [
             {
                 subTitle: "SueyWiky",
                 subText: "Co-Creator of This Website",

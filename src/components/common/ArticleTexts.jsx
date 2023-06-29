@@ -16,7 +16,7 @@ const ArticleTexts = (props) => {
             <div className="container text__container">
                 <div className="text__content">
                     <div className="text__cards">
-                        {content.subjects.map((subject, index) => (
+                        {content.subjects.map((subject, index) => ( // TODO: Add support for #-navigation
                             <Link
                                 key={index}
                                 to={"#" + subject.subTitle.replace(' ', '-').toLowerCase()}
