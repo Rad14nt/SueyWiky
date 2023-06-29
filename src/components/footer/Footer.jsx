@@ -12,12 +12,9 @@ const Footer = () => {
 
             <ul className='permalinks'>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/experience">Experience</Link></li>
-                <li><Link to="/services">Services</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-                <li><Link to="/testimonials">Testimonials</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/team">Team</Link></li>
+                <li><Link to="/copyright">Legal Notice</Link></li>
+                <li><Link to="/disclaimer">Disclaimer</Link></li>
             </ul>
 
             <div className="footer__socials">

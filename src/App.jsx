@@ -9,10 +9,9 @@ import {
     DisclaimerPage,
     HomePage,
     TeamPage,
-    VideoTutorialsPage,
 } from './pages';
 import {
-    Footer,
+    Footer, Header,
     Nav
 } from './components';
 
@@ -20,9 +19,6 @@ const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/videotutorials" element={<VideoTutorialsPage />} />
-
-
                 <Route path="/" element={<HomePage />} />
                 <Route path="/team" element={<TeamPage />} />
                 <Route path="/article" element={<ArticlePage />} />

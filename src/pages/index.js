@@ -1,6 +1,5 @@
-export {default as TeamPage} from './TeamPage'
 export {default as ArticlePage} from './ArticlePage'
 export {default as CopyrightPage} from './CopyrightPage'
 export {default as DisclaimerPage} from './DisclaimerPage'
 export {default as HomePage} from './HomePage'
-export {default as VideoTutorialsPage} from './VideoTutorialsPage'
+export {default as TeamPage} from './TeamPage'

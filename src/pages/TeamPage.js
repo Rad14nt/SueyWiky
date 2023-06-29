@@ -2,11 +2,7 @@ import {TeamShowcase} from "../components";
 import {members} from "../models";
 
 const TeamPage = () => {
-    return (
-        <div>
-            <TeamShowcase members={members} />
-        </div>
-    );
+    return <TeamShowcase members={members} />;
 };
 
 export default TeamPage;
