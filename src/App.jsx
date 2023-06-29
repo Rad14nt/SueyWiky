@@ -4,11 +4,11 @@ import {
     Route
 } from 'react-router-dom';
 import {
-    AboutPage,
     ArticlePage,
     CopyrightPage,
     DisclaimerPage,
     HomePage,
+    TeamPage,
     VideoTutorialsPage,
 } from './pages';
 import {
@@ -24,7 +24,7 @@ const App = () => {
 
 
                 <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<AboutPage />} />
+                <Route path="/team" element={<TeamPage />} />
                 <Route path="/article" element={<ArticlePage />} />
 
                 <Route path="/copyright" element={<CopyrightPage />} />

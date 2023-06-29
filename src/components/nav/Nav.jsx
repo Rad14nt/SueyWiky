@@ -21,8 +21,8 @@ const Nav = () => {
                 <BiHomeAlt/>
             </Link>
 
-            <Link to="about" onClick={() => setActiveNav('about')}
-               className={activeNav === 'about' ? 'active' : ''}>
+            <Link to="team" onClick={() => setActiveNav('team')}
+               className={activeNav === 'team' ? 'active' : ''}>
                 <BiUserCircle/>
             </Link>
 

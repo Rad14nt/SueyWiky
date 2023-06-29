@@ -140,3 +140,66 @@ export const disclaimerContent = {
         }
     ]
 }
+
+export const members = [
+    {
+        id: 1,
+        image: IMG1,
+        name: "Marvin",
+        desc: "Software engineer",
+        text: "Hello there, I'm Marvin and I'm a bug\n",
+        subjects: [
+            {
+                subTitle: "SueyWiky",
+                subText: "Co-Creator of This Website",
+            },
+            {
+                subTitle: "Coroutines",
+                subText: "Made the Kotlin-Video",
+            },
+            {
+                subTitle: "Legal Info",
+                subText: "Wrote the legal info",
+            },
+        ],
+    },
+    {
+        id: 2,
+        image: IMG1,
+        name: "Andrei",
+        desc: "Software engineer",
+        text: "", // TODO: Write text about yourself
+        subjects: [ /* TODO: Write about stuff you've did during the project */
+            {
+                subTitle: "SueyWiky",
+                subText: "Co-Creator of This Website",
+            },
+            {
+                subTitle: "GMaps video",
+                subText: "Creator of maps integration",
+            },
+        ],
+    },
+    {
+        id: 3,
+        image: IMG1,
+        name: "Gregor",
+        desc: "Writer",
+        text: "", // TODO: Write text about yourself
+        subjects: [
+            {
+                subTitle: "File types",
+                subText: "Wrote file type article",
+            },
+        ],
+    },
+    {
+        id: 4,
+        image: IMG1,
+        name: "Rinor",
+        desc: "",
+        text: "", // TODO: Write text about yourself
+        subjects: [
+        ],
+    },
+]

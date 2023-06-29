@@ -1,4 +1,4 @@
-export {default as AboutPage} from './AboutPage'
+export {default as TeamPage} from './TeamPage'
 export {default as ArticlePage} from './ArticlePage'
 export {default as CopyrightPage} from './CopyrightPage'
 export {default as DisclaimerPage} from './DisclaimerPage'
