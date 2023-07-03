@@ -67,25 +67,23 @@ export const articles = [
         subjects: [
             {
                 subTitle: "What is media software",
-                subTextShort: "",
-                subTextLong: "Long story short: Media Software is used to create digital media. How surprising.\n" +
-                    "These days quite anything counts as media: text, visuals, sounds, [...] and there are tools to create all sorts of media, lots of tools to create media.\n" +
-                    "In this article we're going to start by taking a look at popular 'amateur'-tools to create & edit images, sounds, videos. Then we'll extend our event horizon by looking at what professionals use for their movies, ads & blog-posts."
+                subTextShort: "Software... To create media",
+                subTextLong: "Long story short: Media Software is used to create digital media and these days quite anything online is _or can be considered as_ media. Ranging from simple texts in blog posts, explaining some sort of new way to cook, to terabytes of raw data sculpted into a movie Blockbuster - and of course everything in between, like streamed music or simple animations on websites.\n" +
+                    "For such a vast variety of media to even exist, there has to be some sort of program, which can create them. One program alone however can't possibly create all forms of media on its own...\n" +
+                    "...in this article we're going to start by taking a look at popular 'amateur'-programs to _create & edit_ images, sounds, videos. Then we'll switch over to professional applications of the same vendors/software and/or entirely different programs all together. "
             },
             {
                 subTitle: "Popular apps for media-creation",
-                subTextShort: "SueyWiky - GitHub Alley 420",
-                subTextLong: "SueyWiky GitHub-Alley 420 GH-6969 Internet invalid@mail.com"
-            },
-            {
-                subTitle: "Apps used by the industry",
-                subTextShort: "SueyWiky - GitHub Alley 420",
-                subTextLong: "SueyWiky GitHub-Alley 420 GH-6969 Internet invalid@mail.com"
-            },
-            {
-                subTitle: "Latest techniques",
-                subTextShort: "SueyWiky - GitHub Alley 420",
-                subTextLong: "SueyWiky GitHub-Alley 420 GH-6969 Internet invalid@mail.com"
+                subTextShort: "Different software from different vendors",
+                subTextLong: "As mentioned above, there are lots of applications and programs for media creation. By now, each social media app on your phone probably has its own section to take & edit pictures or videos. Ignoring these however doesn't change a single thing about the fact that there are way too many apps to choose from.\n" +
+                    "Listed & explained below are some of the most popular mobile & desktop apps, where one is able to create entire films or edit their pictures.\n\n" +
+                    "Adobe is the most popular vendor of media-creation tools. Their arsenal of programs to creaate pretty much _every single fileformat there is_ is huge, but we won't need every single program listed in this article.\n" +
+                    "Here are some of the more important programs:\n" +
+                    "* **Photoshop**, a program considered as the go-to for image editing. Photoshop has a huge amount of features for photographers to slightly enhance existing images by e.g. improving lighting or adjusting the colour. The features don't end there though, people all over the world use it to adjust pictures completely and e.g. make it seem a car is flying. \n" +
+                    "* **Premier Pro/Rush**. Whist _Premier Pro_ is the current Adobe-flagship of video editing all across YouTube and Hollywood, _Premier Rush_ is very popular among people who prefer to edit their videos on mobile devices. \n" +
+                    "* **After Effects** basically is the industry standard for VFX and CGI. VFX is the act of adding artifical computer-generated art/3-D graphics to _already existing_ videos, whilst CGI on the other hand is the creation of videos which purely consist of computer-generated 3-D graphics.\n" +
+                    "**Davinci Resolve** is the way to go if one wants a whole arsenal of tools to create their own blockbuster movie: It has a built-in *\"speed-editor\"*, to quickly skip through a timeline and cut individual clips, a *\"normal editor\"*, in which the majority of the cutting and editing happens with basic transitions and titles, *\"fusion\"* - basically Adobe Aftereffects - where it's possible to create complex VFX and simple transitions and an entire \"*colour-grading section*\", which is pretty selfexplanatory.  \n" +
+                    "And the best thing? It's completely free for personal use!"
             },
         ],
     }
