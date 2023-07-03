@@ -37,10 +37,7 @@ const TeamShowcase = (props) => {
 
                             <StringToMultiline text={member.text} />
 
-                            {/*// TODO: Change this to some sort of video thingy.
-                            // Maybe include this slide thingy from a deleted
-                            // commit, which was used in, I think, testimonials.*/}
-                            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                            <a href={member.video} target="_blank" className='btn btn-primary'>To the video!</a>
                         </div>
                     </div>
                 </section>

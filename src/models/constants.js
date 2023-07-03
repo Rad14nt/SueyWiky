@@ -79,9 +79,9 @@ export const articles = [
                     "Listed & explained below are some of the most popular mobile & desktop apps, where one is able to create entire films or edit their pictures.\n\n" +
                     "Adobe is the most popular vendor of media-creation tools. Their arsenal of programs to creaate pretty much _every single fileformat there is_ is huge, but we won't need every single program listed in this article.\n" +
                     "Here are some of the more important programs:\n" +
-                    "* **Photoshop**, a program considered as the go-to for image editing. Photoshop has a huge amount of features for photographers to slightly enhance existing images by e.g. improving lighting or adjusting the colour. The features don't end there though, people all over the world use it to adjust pictures completely and e.g. make it seem a car is flying. \n" +
-                    "* **Premier Pro/Rush**. Whist _Premier Pro_ is the current Adobe-flagship of video editing all across YouTube and Hollywood, _Premier Rush_ is very popular among people who prefer to edit their videos on mobile devices. \n" +
-                    "* **After Effects** basically is the industry standard for VFX and CGI. VFX is the act of adding artifical computer-generated art/3-D graphics to _already existing_ videos, whilst CGI on the other hand is the creation of videos which purely consist of computer-generated 3-D graphics.\n" +
+                    "**Photoshop**, a program considered as the go-to for image editing. Photoshop has a huge amount of features for photographers to slightly enhance existing images by e.g. improving lighting or adjusting the colour. The features don't end there though, people all over the world use it to adjust pictures completely and e.g. make it seem a car is flying. \n" +
+                    "**Premier Pro/Rush**. Whist _Premier Pro_ is the current Adobe-flagship of video editing all across YouTube and Hollywood, _Premier Rush_ is very popular among people who prefer to edit their videos on mobile devices. \n" +
+                    "**After Effects** basically is the industry standard for VFX and CGI. VFX is the act of adding artifical computer-generated art/3-D graphics to _already existing_ videos, whilst CGI on the other hand is the creation of videos which purely consist of computer-generated 3-D graphics.\n" +
                     "**Davinci Resolve** is the way to go if one wants a whole arsenal of tools to create their own blockbuster movie: It has a built-in *\"speed-editor\"*, to quickly skip through a timeline and cut individual clips, a *\"normal editor\"*, in which the majority of the cutting and editing happens with basic transitions and titles, *\"fusion\"* - basically Adobe Aftereffects - where it's possible to create complex VFX and simple transitions and an entire \"*colour-grading section*\", which is pretty selfexplanatory.  \n" +
                     "And the best thing? It's completely free for personal use!"
             },
@@ -145,7 +145,9 @@ export const members = [
         image: IMG1,
         name: "Marvin",
         desc: "Software engineer",
-        text: "Hello there, I'm Marvin and I'm a bug\n",
+        text: "Hello there. Why not start by introducing myself. I'm Marvin, and I'm a software dev, like most - all* - people in our team. I primarily worked on this website and its articles, whilst also not forgetting about my video.\n" +
+            "Andrei and I pretty much programmed this entire website. Additionally I'm primarily responsible for most of this website's articles/texts.",
+        video: "https://youtube.com",
         subjects: [
             {
                 subTitle: "SueyWiky",
@@ -156,8 +158,8 @@ export const members = [
                 subText: "Made the Kotlin-Video",
             },
             {
-                subTitle: "Legal Info",
-                subText: "Wrote the legal info",
+                subTitle: "Articles",
+                subText: "Wrote the most articles",
             },
         ],
     },
@@ -167,6 +169,7 @@ export const members = [
         name: "Andrei",
         desc: "Software engineer",
         text: "", // TODO: Write text about yourself
+        video: "https://youtube.com",
         subjects: [
             {
                 subTitle: "SueyWiky",
@@ -184,6 +187,7 @@ export const members = [
         name: "Gregor",
         desc: "Writer",
         text: "", // TODO: Write text about yourself
+        video: "https://youtube.com",
         subjects: [
             {
                 subTitle: "File types",
@@ -197,6 +201,7 @@ export const members = [
         name: "Rinor",
         desc: "",
         text: "", // TODO: Write text about yourself
+        video: "https://youtube.com",
         subjects: [
         ],
     },
