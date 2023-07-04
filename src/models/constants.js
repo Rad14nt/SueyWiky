@@ -1,4 +1,10 @@
 import IMG1 from "../assets/portfolio1.jpg";
+import ANDREIPIC from "../assets/andreipic.jpeg";
+import RINORPIC from "../assets/rinorpic.png";
+import GREGORPIC from "../assets/gregorpic.png";
+import MARVINPIC from "../assets/marvinpic.png";
+
+
 
 export const articles = [
     {
@@ -142,7 +148,7 @@ export const disclaimerContent = {
 export const members = [
     {
         id: 1,
-        image: IMG1,
+        image: MARVINPIC,
         name: "Marvin",
         desc: "Software engineer",
         text: "Hello there. Why not start by introducing myself. I'm Marvin, and I'm a software dev, like most - all* - people in our team. I primarily worked on this website and its articles, whilst also not forgetting about my video.\n" +
@@ -165,10 +171,10 @@ export const members = [
     },
     {
         id: 2,
-        image: IMG1,
+        image: ANDREIPIC,
         name: "Andrei",
         desc: "Software engineer",
-        text: "YO MOTHERFUCKERS, I'm Andrei. A 21 year old dev working for a depressing company called Generali. My main priority was the development of the website, which I bought cause I was too lazy. My mates took up the task of writing the articles. Of course we all did a beautiful video. It took me 9 minutes  11 seconds in 2024 to programmm this website.",
+        text: "Hey there, my name's Andrei. I'm a 21 year old software developer currently employed by Generali AG Switzerland. The website you are currently reading this on was mainly my responsibility, and therefore my main task.\n \n I of course also created an instructional video of my own, explaining the implementation of Google Maps in Android Appliactions using Kotlin.",
         video: "https://youtube.com",
         subjects: [
             {
@@ -176,33 +182,49 @@ export const members = [
                 subText: "Co-Creator of This Website",
             },
             {
-                subTitle: "GMaps video",
-                subText: "Creator of maps integration",
+                subTitle: "GMaps Android",
+                subText: "Created video on this topic",
+            },
+            {
+                subTitle: "Coder",
+                subText: "In charge of programming.",
             },
         ],
     },
     {
         id: 3,
-        image: IMG1,
+        image: GREGORPIC,
         name: "Gregor",
         desc: "Writer",
-        text: "", // TODO: Write text about yourself
+        text: "I am Gregor. I'm 18 and I work for SRF as a software developer. I took over the task of writing the articles together with Rinor. You will also find a video about a topic I was allowed to choose myself. I hope you like it.",
         video: "https://youtube.com",
         subjects: [
             {
-                subTitle: "File types",
-                subText: "Wrote file type article",
+                subTitle: "Articles",
+                subText: "Wrote some of the articles",
+            },
+            {
+                subTitle: "Phishing Mails",
+                subText: "Created video on this topic",
             },
         ],
     },
     {
         id: 4,
-        image: IMG1,
+        image: RINORPIC,
         name: "Rinor",
         desc: "",
-        text: "", // TODO: Write text about yourself
+        text: "My name is Rinor. I am 18 years old and I work for a company called Boreas. My task was to complete the articles together with gregor. Above my description you will find a video i made about the download of homebrew.",
         video: "https://youtube.com",
         subjects: [
+            {
+                subTitle: "Homebrew",
+                subText: "Created video on this topic",
+            },
+            {
+                subTitle: "Articles",
+                subText: "Wrote some of the articles",
+            },
         ],
     },
 ]

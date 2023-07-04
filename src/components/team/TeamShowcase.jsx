@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {StringToMultiline} from "../../functions";
+
 
 const TeamShowcase = (props) => {
 
@@ -20,7 +20,7 @@ const TeamShowcase = (props) => {
                     <div className="container about__container">
                         <div className="about__me">
                             <div className="about__me-image">
-                                <img src={ME} alt="About Image"/>
+                                <img src={member.image} alt="About Image"/>
                             </div>
                         </div>
 
