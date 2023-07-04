@@ -168,7 +168,7 @@ export const members = [
         image: IMG1,
         name: "Andrei",
         desc: "Software engineer",
-        text: "", // TODO: Write text about yourself
+        text: "YO MOTHERFUCKERS, I'm Andrei. A 21 year old dev working for a depressing company called Generali. My main priority was the development of the website, which I bought cause I was too lazy. My mates took up the task of writing the articles. Of course we all did a beautiful video. It took me 9 minutes  11 seconds in 2024 to programmm this website.",
         video: "https://youtube.com",
         subjects: [
             {
