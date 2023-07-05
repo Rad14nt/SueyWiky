@@ -196,12 +196,12 @@ export const members = [
         image: GREGORPIC,
         name: "Gregor",
         desc: "Writer",
-        text: "I am Gregor. I'm 18 and I work for SRF as a software developer. I took over the task of writing the articles together with Rinor. You will also find a video about a topic I was allowed to choose myself. I hope you like it.",
+        text: "",
         video: "https://youtube.com",
         subjects: [
             {
                 subTitle: "Articles",
-                subText: "Wrote some of the articles",
+                subText: "Wrote an article",
             },
             {
                 subTitle: "Phishing Mails",
@@ -214,17 +214,13 @@ export const members = [
         image: RINORPIC,
         name: "Rinor",
         desc: "",
-        text: "My name is Rinor. I am 18 years old and I work for a company called Boreas. My task was to complete the articles together with gregor. Above my description you will find a video i made about the download of homebrew.",
+        text: "",
         video: "https://youtube.com",
         subjects: [
             {
                 subTitle: "Homebrew",
                 subText: "Created video on this topic",
-            },
-            {
-                subTitle: "Articles",
-                subText: "Wrote some of the articles",
-            },
+            }
         ],
     },
 ]
