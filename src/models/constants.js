@@ -213,10 +213,14 @@ export const members = [
         id: 4,
         image: RINORPIC,
         name: "Rinor",
-        desc: "",
-        text: "",
+        desc: "Writer",
+        text: "My name is Rinor. I am 18 years old and I work for a company called Boreas. My task was to complete the articles together with gregor. Above my description you will find a video i made about the download of homebrew.",
         video: "https://youtube.com",
         subjects: [
+            {
+                subTitle: "Articles",
+                subText: "Wrote an Article",
+            },
             {
                 subTitle: "Homebrew",
                 subText: "Created video on this topic",
