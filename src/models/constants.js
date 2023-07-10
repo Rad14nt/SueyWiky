@@ -196,8 +196,8 @@ export const members = [
         image: GREGORPIC,
         name: "Gregor",
         desc: "Writer",
-        text: "",
-        video: "https://youtube.com",
+        text: "I am Gregor. I'm 18 and I work for SRF as a software developer. I took over the task of writing the articles together with Rinor. You will also find a video about a topic I was allowed to choose myself. I hope you like it.",
+        video: "https://youtu.be/Eghj6T9AJUk",
         subjects: [
             {
                 subTitle: "Articles",
