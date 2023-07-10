@@ -1,4 +1,5 @@
-import IMG1 from "../assets/portfolio1.jpg";
+import IMG1 from "../assets/media_file_formats.jpg";
+import IMG2 from "../assets/OIP.jpg";
 import ANDREIPIC from "../assets/andreipic.jpeg";
 import RINORPIC from "../assets/rinorpic.png";
 import GREGORPIC from "../assets/gregorpic.png";
@@ -67,7 +68,7 @@ export const articles = [
     },
     {
         id: 2,
-        image: IMG1,
+        image: IMG2,
         title: 'Media creation tools',
         author: 'Marvin',
         subjects: [
