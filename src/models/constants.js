@@ -175,7 +175,7 @@ export const members = [
         name: "Andrei",
         desc: "Software engineer",
         text: "Hey there, my name's Andrei. I'm a 21 year old software developer currently employed by Generali AG Switzerland. The website you are currently reading this on was mainly my responsibility, and therefore my main task.\n \n I of course also created an instructional video of my own, explaining the implementation of Google Maps in Android Appliactions using Kotlin.",
-        video: "https://youtube.com",
+        video: "https://youtu.be/zfoBw7kAwHE",
         subjects: [
             {
                 subTitle: "SueyWiky",
