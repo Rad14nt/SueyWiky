@@ -215,7 +215,7 @@ export const members = [
         name: "Rinor",
         desc: "Writer",
         text: "My name is Rinor. I am 18 years old and I work for a company called Boreas. My task was to complete the articles together with gregor. Above my description you will find a video i made about the download of homebrew.",
-        video: "https://youtube.com",
+        video: "https://www.youtube.com/watch?v=RO45hk_rMqw",
         subjects: [
             {
                 subTitle: "Articles",
