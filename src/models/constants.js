@@ -153,7 +153,7 @@ export const members = [
         desc: "Software engineer",
         text: "Hello there. Why not start by introducing myself. I'm Marvin, and I'm a software dev, like most - all* - people in our team. I primarily worked on this website and its articles, whilst also not forgetting about my video.\n" +
             "Andrei and I pretty much programmed this entire website. Additionally I'm primarily responsible for most of this website's articles/texts.",
-        video: "https://youtube.com",
+        video: "https://youtu.be/4GrAp0sNumA",
         subjects: [
             {
                 subTitle: "SueyWiky",
